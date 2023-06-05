@@ -8,7 +8,8 @@ createApp({
             '03.webp',
             '04.webp',
             '05.webp',
-           ]
+           ],
+           activeINdex:0,
         }
     }
 }).mount('#app')
