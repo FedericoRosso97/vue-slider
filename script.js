@@ -3,13 +3,16 @@ createApp({
     data(){
         return{
            imgArray:[
-            '01.webp',
-            '02.webp',
-            '03.webp',
-            '04.webp',
-            '05.webp',
+            'img/01.webp',
+            'img/02.webp',
+            'img/03.webp',
+            'img/04.webp',
+            'img/05.webp',
            ],
-           activeINdex:0,
+           activeIndex:0,
         }
+    },
+    methods(){
+
     }
 }).mount('#app')
