@@ -48,12 +48,10 @@ img{
 }
 .carousel-item{
     width: 60%;
-    margin:0 auto
-}
-.hidden{
-    display:none ;
+    margin:0 auto;
+   /* display: none;*/
 }
 
-.carousel .item.visible{
+main .carousel-item.visible{
     display: block;
 }

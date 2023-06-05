@@ -16,8 +16,8 @@
                 <div class="button-left">
                     <button>scorri a sinistra</button>
                 </div>
-                <div class="wrapper">
-                    <img src="imgArray"  :class="index===activeIndex ?'visible' : '', errorClass" alt="img">
+                <div class="wrapper" >
+                    <img v-for="(image,index) in imgArray" :src="image"  :class="image===activeIndex ? 'visible' : ''" alt="img">
                 </div>
                 <div class="button-right">
                     <button>scorri a destra</button>
