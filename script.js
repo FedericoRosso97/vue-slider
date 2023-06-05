@@ -4,7 +4,7 @@ createApp({
         return{
            
             imgArray:[
-            '/img/01.webp',
+            '01.webp',
             '02.webp',
             '03.webp',
             '04.webp',
@@ -13,7 +13,25 @@ createApp({
            activeIndex:0,
         }
     },
-    methods(){
-
+    methods:{
+        previousSlide(){
+            if(this.activeIndex==0){
+                this.activeIndex=this.imgArray.length-1;
+            console.log(this.activeIndex);
+            }else{
+                this.activeIndex--;
+                console.log(this.activeIndex);
+            }
+            
+        },
+        nextSlide(){
+            if(this.activeIndex==this.imgArray.length-1){
+                this.activeIndex=0;
+            }else{
+                this.activeIndex++;
+                console.log(this.activeIndex);
+            }
+           
+        }
     }
 }).mount('#app')

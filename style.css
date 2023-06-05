@@ -45,6 +45,7 @@ img{
     width: 100%;
     height: 70vh;
     object-fit: cover;
+    display: none;
 }
 .carousel-item{
     width: 60%;
@@ -52,6 +53,10 @@ img{
    /* display: none;*/
 }
 
-main .carousel-item.visible{
+/*.wrapper{
+    display: none;
+}*/
+
+main .wrapper.visible{
     display: block;
 }

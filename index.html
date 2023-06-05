@@ -13,13 +13,13 @@
     <div id="app">
         <main>
             <div class="carousel flex">
-                <div class="button-left">
+                <div class="button-left" @click="previousSlide">
                     <button>scorri a sinistra</button>
                 </div>
                 <div class="wrapper" >
-                    <img v-for="(image,index) in imgArray" :src="image"  :class="image===activeIndex ? 'visible' : ''" alt="img">
+                    <img v-for="(image,index) in imgArray" :src="image"  :class="image===activeIndex ? 'visible' :'' ">
                 </div>
-                <div class="button-right">
+                <div class="button-right" @click="nextSlide">
                     <button>scorri a destra</button>
                 </div>
             </div>
