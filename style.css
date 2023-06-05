@@ -1,0 +1,59 @@
+.flex{
+    display:flex;
+}
+
+main{
+    background-color: rgba(4, 4, 125, 0.4);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+
+}
+
+.carousel{
+    width: 70vw;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    border: 1px solid black;
+    background-color: rgba(4, 4, 125, 0.4);
+}
+
+button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    background-color: lightblue;
+
+}
+
+.button-right{
+    position: absolute;
+    right: 50px;
+}
+
+.button-left{
+    position: absolute;
+    left: 50px;
+}
+
+img{
+    object-fit:contain ;
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+.carousel-item{
+    width: 60%;
+    margin:0 auto
+}
+.hidden{
+    display:none ;
+}
+
+.carousel .item.visible{
+    display: block;
+}
