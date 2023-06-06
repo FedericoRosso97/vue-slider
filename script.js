@@ -19,9 +19,6 @@ createApp({
                 {
                     image:'05.webp',
                 },
-                
-                   
-            
            ],
            activeIndex:0,
         }

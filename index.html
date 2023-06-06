@@ -16,8 +16,7 @@
                 <div class="button-left" @click="previousSlide">
                     <button>scorri a sinistra</button>
                 </div>
-                <img :src="items.image[activeIndex]" alt="">
-                
+                <img :src="imgArray[activeIndex].image" alt="">
                 <div class="button-right" @click="nextSlide">
                     <button>scorri a destra</button>
                 </div>
