@@ -2,13 +2,17 @@ const {createApp}=Vue;
 createApp({
     data(){
         return{
-           
+            items: [{ message: 'Foo' }, { message: 'Bar' }],
             imgArray:[
-            '01.webp',
-            '02.webp',
-            '03.webp',
-            '04.webp',
-            '05.webp',
+                '01.webp',
+                   
+                '02.webp',
+               
+                '03.webp',
+    
+                '04.webp',
+                 
+                '05.webp',
            ],
            activeIndex:0,
         }
@@ -25,7 +29,7 @@ createApp({
             
         },
         nextSlide(){
-            if(this.activeIndex==this.imgArray.length-1){
+            if(this.activeIndex=this.imgArray.length-1){
                 this.activeIndex=0;
             }else{
                 this.activeIndex++;

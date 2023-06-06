@@ -27,7 +27,6 @@ button{
     border-radius: 50%;
     border: none;
     background-color: lightblue;
-
 }
 
 .button-right{
@@ -45,7 +44,6 @@ img{
     width: 100%;
     height: 70vh;
     object-fit: cover;
-    display: none;
 }
 .carousel-item{
     width: 60%;

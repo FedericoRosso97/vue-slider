@@ -16,9 +16,8 @@
                 <div class="button-left" @click="previousSlide">
                     <button>scorri a sinistra</button>
                 </div>
-                <div class="wrapper" >
-                    <img v-for="(image,index) in imgArray" :src="image"  :class="image===activeIndex ? 'visible' :'' ">
-                </div>
+                <img :src="imgArray[activeIndex]" alt="">
+                
                 <div class="button-right" @click="nextSlide">
                     <button>scorri a destra</button>
                 </div>
