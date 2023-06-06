@@ -32,11 +32,13 @@ button{
 .button-right{
     position: absolute;
     right: 50px;
+    border-radius: 50%;
 }
 
 .button-left{
     position: absolute;
     left: 50px;
+    border-radius: 50%;
 }
 
 img{

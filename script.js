@@ -4,15 +4,24 @@ createApp({
         return{
             items: [{ message: 'Foo' }, { message: 'Bar' }],
             imgArray:[
-                '01.webp',
+                {
+                    image:'01.webp',
+                },
+                {
+                    image:'02.webp',
+                },
+                {
+                    image:'03.webp',
+                },
+                {
+                    image:'04.webp',
+                },
+                {
+                    image:'05.webp',
+                },
+                
                    
-                '02.webp',
-               
-                '03.webp',
-    
-                '04.webp',
-                 
-                '05.webp',
+            
            ],
            activeIndex:0,
         }
