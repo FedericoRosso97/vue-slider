@@ -29,7 +29,7 @@ createApp({
             
         },
         nextSlide(){
-            if(this.activeIndex=this.imgArray.length-1){
+            if(this.activeIndex=this.imgArray.length){
                 this.activeIndex=0;
             }else{
                 this.activeIndex++;
